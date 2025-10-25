@@ -1,15 +1,21 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: black;
-}
-div{
-    width: 500px;
-    height: 25px;
-    background-color: white;
-    margin-left: 400px;
-    margin-top: 200px;
-    border: 300px, 150px;
-      box-shadow: 0 0 110px 30px hsl(48, 100%, 99%);
+    background-color: whitesmoke;
 
+}
+.parent{
+height: 400px;
+width: 400px;
+background-color: blue;
+border-radius: 100%;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 100%;
+    position:absolute;
+    margin-top: 325px;
+    margin-left: 300px;
 }
